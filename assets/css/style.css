@@ -102,6 +102,12 @@ img{
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
 
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+
 
 #about-me > div > div{
   display: flex;
@@ -113,11 +119,11 @@ img{
   color: #e9e8e8;
   text-decoration: none;
   background-color: #176B87;
-  padding: 1rem;
+  padding: .5rem 1rem .5rem 1rem;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   text-align: center;
-  border-radius: 1rem;
+  border-radius: .5rem;
 }
 
 span, #about-me > div > div > a{
@@ -178,4 +184,6 @@ span, #about-me > div > div > a{
     font-size: 2em;
   }
 }
+
+
 
